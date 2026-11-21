@@ -1,0 +1,11 @@
+groups:
+  - name: medicore-basic
+    rules:
+      - alert: NodeExporterDown
+        expr: up{job="node"} == 0
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Node Exporter tidak dapat dijangkau"
+          description: "Periksa service Node Exporter dan konektivitas target."

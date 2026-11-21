@@ -1,0 +1,1 @@
+-- TODO: definisi tabel, relasi, index, constraint MediCore. Jangan masukkan credential.

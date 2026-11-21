@@ -1,0 +1,9 @@
+# Contoh; sesuaikan path/group/izin sebelum digunakan.
+[medicore-share]
+   path = /srv/samba/medicore
+   browseable = yes
+   read only = no
+   guest ok = no
+   valid users = @medicore-share
+   create mask = 0660
+   directory mask = 0770

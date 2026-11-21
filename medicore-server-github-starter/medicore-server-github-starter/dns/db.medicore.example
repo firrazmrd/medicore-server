@@ -1,0 +1,13 @@
+; Kerangka contoh; sesuaikan serial dan alamat final.
+$TTL 604800
+@ IN SOA ns.medicore.test. admin.medicore.test. (
+    2026112201
+    604800
+    86400
+    2419200
+    604800
+)
+@           IN NS ns.medicore.test.
+ns          IN A  192.168.56.30
+app         IN A  192.168.56.20
+monitoring  IN A  192.168.56.30

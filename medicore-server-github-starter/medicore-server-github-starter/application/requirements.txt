@@ -1,0 +1,1 @@
+# Isi versi dependency yang benar-benar digunakan dan sudah diuji.

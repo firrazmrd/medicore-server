@@ -1,0 +1,5 @@
+// Kerangka contoh; sesuaikan sebelum diterapkan.
+zone "medicore.test" {
+    type master;
+    file "/etc/bind/db.medicore";
+};

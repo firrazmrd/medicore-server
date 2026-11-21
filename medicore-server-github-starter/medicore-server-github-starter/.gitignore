@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+secrets/
+credentials/
+
+# Local database and generated backup
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
+*.bak
+*.sql.gz
+*.tar
+*.tar.gz
+local-backups/
+
+# Logs / editor
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Virtual machines
+*.vdi
+*.vbox
+*.vbox-prev
+*.ova
+*.ovf
